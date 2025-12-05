@@ -16,8 +16,8 @@ const Dashboard: NextPage = () => {
   const queryClient = useQueryClient()
   const signOut = () => {
     supabase.auth.signOut()
-    queryClient.removeQueries('todos')
-    queryClient.removeQueries('notices')
+    queryClient.removeQueries(['todos'])
+    queryClient.removeQueries(['notices'])
   }
   return (
     <Layout title="Dashboard">
