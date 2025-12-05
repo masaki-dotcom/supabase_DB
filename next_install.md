@@ -168,3 +168,10 @@ Invoke-WebRequest `
   } `
   -Method GE
 ```
+
+## VercelのアカウントをGitHubと連携する
+
+Vercelは、Webサイトやアプリを簡単に公開できるサービスです。
+GitHubなどのGitサービスと連携すれば、コード（htmlとかも）を更新するだけで自動的にサイトが更新される便利な仕組みが使えます。
+
+your name : masaki

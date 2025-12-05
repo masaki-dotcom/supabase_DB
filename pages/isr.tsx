@@ -45,7 +45,7 @@ const Isr: NextPage<StaticProps> = ({ tasks, notices }) => {
           )
         })}
       </ul>
-      <Link href="/ssr" prefetch={false} my-3 text-xs>
+      <Link href="/ssr" prefetch={false} className="mb-3 text-xs">
         Link to ssr
       </Link>
       <button className="mb-3 text-xs" onClick={() => router.push('/ssr')}>
